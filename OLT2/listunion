@@ -1,0 +1,6 @@
+list1 = eval(input())
+list2 = eval(input())
+set1 = set(list1)
+set2 = set(list2)
+set3 = set1.union(set2)
+print(list(set3))

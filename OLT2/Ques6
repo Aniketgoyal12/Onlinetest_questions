@@ -1,0 +1,11 @@
+def are_elements_unique(tuple1):
+    unique = False
+    list1 = list(tuple1)
+    list2 = sorted(set(list1))
+    if list2 == list1:
+        unique = True
+    else:
+        unique = False
+    return unique
+tuple1 = eval(input())
+print(are_elements_unique(tuple1))

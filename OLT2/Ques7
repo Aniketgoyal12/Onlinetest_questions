@@ -1,0 +1,8 @@
+def are_elements_unique(tuple1):
+    sum = 0
+    for i in tuple1:
+        if i%2 == 0:
+            sum += i
+    return sum
+tuple1 = eval(input())
+print(are_elements_unique(tuple1))

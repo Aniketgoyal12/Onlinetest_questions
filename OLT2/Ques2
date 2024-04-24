@@ -1,0 +1,8 @@
+def find_max_in_tuple(tuple1):
+    list1 = []
+    for i in tuple1:
+        list1.append(i)
+    list2 = sorted(set(list1))
+    return list2[-1]    
+tuple1 = eval(input())
+print(find_max_in_tuple(tuple1))

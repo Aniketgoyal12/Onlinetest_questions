@@ -1,0 +1,11 @@
+def are_elements_unique(tuple1):
+    isbinary = False
+    for i in tuple1:
+        if i== 0 or i == 1:
+            isbinary = True
+        else:
+            isbinary = False
+            break
+    return isbinary
+tuple1 = eval(input())
+print(are_elements_unique(tuple1))

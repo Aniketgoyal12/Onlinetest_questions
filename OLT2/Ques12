@@ -1,0 +1,5 @@
+def sorted_keys(dict1):
+    list_keys = dict1.keys()
+    return sorted(list_keys)
+dict1 = eval(input())
+print(sorted_keys(dict1))

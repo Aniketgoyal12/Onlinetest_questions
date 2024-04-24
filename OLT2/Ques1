@@ -1,0 +1,9 @@
+def reverse_tuple(tuple1):
+    # tuple2 = reversed(tuple1)
+    tuple2 = tuple(reversed(tuple1))
+    tuple3 = str(tuple2)
+    tuple4 = tuple3.replace(" ","")
+    return tuple4
+tuple1 = eval(input())
+print(reverse_tuple(tuple1))
+

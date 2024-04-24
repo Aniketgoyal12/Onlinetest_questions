@@ -1,0 +1,5 @@
+def add_grape_pair(dict1):
+    dict1.update({"grape":"purple"})
+    return dict1
+dict1 = eval(input())
+print(add_grape_pair(dict1))

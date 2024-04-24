@@ -1,0 +1,9 @@
+def is_tuple_empty(tuple1):
+    isempty = False
+    if tuple1 == ():
+        isempty = True
+    else:
+        isempty = False
+    return isempty
+tuple1 = eval(input())
+print(is_tuple_empty(tuple1))

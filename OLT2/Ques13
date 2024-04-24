@@ -1,0 +1,7 @@
+def get_all_values(dict1):
+    list_value = []
+    for key,val in dict1.items():
+        list_value.append(val)
+    return list_value
+dict1 = eval(input())
+print(get_all_values(dict1))
